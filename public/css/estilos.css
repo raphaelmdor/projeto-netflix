@@ -1,0 +1,26 @@
+/* Destinado aos estilos globais */
+
+html {
+    height: 100%;
+}
+
+.tamanho-img-fundo {
+    background-size: cover;
+}
+
+body {
+    background-color: black;
+}
+
+header a img {
+    width: 25%;
+    margin: 12px 15px;
+}
+
+header .background-img img {
+    background-size: cover;
+}
+
+main div .select-lang {
+    margin-right: 10px;
+}
