@@ -1,26 +1,19 @@
 /* Destinado aos estilos globais */
 
-html {
-    height: 100%;
-}
-
-.tamanho-img-fundo {
-    background-size: cover;
-}
-
 body {
-    background-color: black;
+    background-image: url(../fotos/fundo-site.jpg);
+    background-repeat: no-repeat;
+    background-size: 320%;
+    background-color: #000000;
+    margin: 0;
 }
 
-header a img {
-    width: 25%;
-    margin: 12px 15px;
+@media screen and (min-width: 992px) {
+    body {
+        background-size: auto;
+    }
 }
 
-header .background-img img {
-    background-size: cover;
-}
-
-main div .select-lang {
-    margin-right: 10px;
+.title {
+    margin-left: 10px;
 }
