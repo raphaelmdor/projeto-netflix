@@ -2,18 +2,22 @@
 
 body {
     background-image: url(../fotos/fundo-site.jpg);
-    background-repeat: no-repeat;
     background-size: 320%;
-    background-color: #000000;
-    margin: 0;
 }
 
+
 @media screen and (min-width: 992px) {
-    body {
+    body{
         background-size: auto;
+        margin: 0 !important;
     }
 }
 
 .title {
-    margin-left: 10px;
+    color: blue;
+    margin: 10px 25px;
+}
+
+body {
+    margin: -1px;
 }
