@@ -1,23 +1,25 @@
 /* Destinado aos estilos globais */
 
+html {
+    height: 100%;
+}
+
 body {
-    background-image: url(../fotos/fundo-site.jpg);
+    background-image: url(../fotos/background-projeto.jpg);
     background-size: 320%;
+    background-repeat: no-repeat;
+    margin: 0;
 }
 
 
 @media screen and (min-width: 992px) {
     body{
-        background-size: auto;
+        background-size: cover;
         margin: 0 !important;
     }
 }
 
-.title {
-    color: blue;
-    margin: 10px 25px;
-}
-
-body {
-    margin: -1px;
+header a img {
+    width: 33%;
+    padding: 15px
 }
