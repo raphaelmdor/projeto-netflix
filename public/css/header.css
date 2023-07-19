@@ -1,1 +1,30 @@
 /* Destinado aos estilos do header */
+
+header a img {
+    width: 33%;
+    margin-left: 5px;
+    margin-top: 5px;   
+}
+
+.contact-form {
+    text-align: center;
+    color: white;
+    border: 1px solid #836fff;
+    border-radius: 20px;
+}
+
+.contact-form input {
+    width: 80%;
+    padding: 5px 15px;
+}
+
+header a {
+    display: block;
+    border-bottom: 0 solid #836fff;
+    margin-bottom: 160px;
+}
+
+.contact-form > div label {
+    margin-bottom: 10px;
+}
+
