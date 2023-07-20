@@ -1,9 +1,10 @@
 /* Destinado aos estilos do header */
 
 header a img {
-    width: 33%;
+    width: 70%;
     margin-left: 5px;
-    margin-top: 5px;   
+    margin-top: 5px;
+    margin-bottom: 5px;   
 }
 
 .contact-form {
@@ -16,15 +17,18 @@ header a img {
 .contact-form input {
     width: 80%;
     padding: 5px 15px;
+    margin: 10px;
 }
 
 header a {
     display: block;
-    border-bottom: 0 solid #836fff;
-    margin-bottom: 160px;
+    border-bottom: 2px solid #836fff;
+    margin-bottom: 100px;
 }
 
-.contact-form > div label {
-    margin-bottom: 10px;
+main .contact-form {
+    padding: 12px;
+    margin: 10px;
 }
+
 
