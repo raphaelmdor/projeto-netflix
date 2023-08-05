@@ -10,7 +10,7 @@ header a img {
 .contact-form {
     text-align: center;
     color: white;
-    border: 1px solid #836fff;
+    border: 2px solid #836fff;
     border-radius: 20px;
 }
 
@@ -23,11 +23,11 @@ header a img {
 header a {
     display: block;
     border-bottom: 2px solid #836fff;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 main .contact-form {
-    padding: 12px;
+    padding: 10px;
     margin: 10px;
 }
 
