@@ -12,6 +12,31 @@ body {
     font-family: sans-serif;
 }
 
+.text-center {
+    text-align: center;
+}
+
+main h1.title {
+    margin-bottom: 35px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.75em;
+    padding: 0 25px;
+}
+
+main div.buttonLogin {
+    text-align: center;
+}
+
+main div.buttonLogin,
+main div.buttonCadastro{
+    display: inline-block;
+}
+
+main .contact-form {
+    padding: 10px;
+    margin: 10px;
+}
 
 @media screen and (min-width: 992px) {
     body{
@@ -34,30 +59,13 @@ body {
         margin: auto;
     }
     main .contact-form {
-        margin: 45px 215px !important;
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin: 0 auto !important;
     }
     main div.buttonLogin,
     main div.buttonCadastro{
         margin: auto;
     }
-}
-.text-center {
-    text-align: center;
-}
-
-main h1.title {
-    margin-bottom: 35px;
-    text-align: center;
-    color: #ffffff;
-    font-size: 1.75em;
-    padding: 0 25px;
-}
-
-main div.buttonLogin {
-    text-align: center;
-}
-
-main div.buttonLogin,
-main div.buttonCadastro{
-    display: inline-block;
 }
